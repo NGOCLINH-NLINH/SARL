@@ -79,7 +79,7 @@ def get_parser() -> ArgumentParser:
 
     return parser
 
-class SARL_DRS(ContinualModel):
+class SARLDRS(ContinualModel):
     NAME = 'sarl_drs'
     COMPATIBILITY = ['class-il']
 
